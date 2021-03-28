@@ -18,7 +18,7 @@ function colorCode() {
         if (curTime > time) {
             $(this).addClass("future")
         }
-        else {
+        if (curTime < time) {
             $(this).addClass("past");
         }
     })
