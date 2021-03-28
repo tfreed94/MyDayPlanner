@@ -33,3 +33,9 @@ function createPlans() {
         }
     })
 }createPlans()
+// Saving the user created plans and the hour they created them in to Local Storage
+$('.saveBtn').on("click", function () {
+    var curHour = $(this).parent().attr("id");
+    var plans = $(this).siblings(".plans").val();
+    localStorage.setItem(curHour, plans);
+})
