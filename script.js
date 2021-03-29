@@ -23,7 +23,7 @@ function colorCode() {
         }
     })
 }colorCode()
-// Get EventID from local storage if plans is true then the plans created by user will not disappear when the app is re-opened
+// Get EventID from local storage // if "plans" is true then the plans created by user will not disappear when the app is re-opened
 function createPlans() {
     $(".row").each(function () {
         var eventID = $(this).attr("id");
