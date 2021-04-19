@@ -19,6 +19,8 @@ Those created plans will be saved to the local storage so that when the user clo
 ![](assets/mydayplanner2.png)
 ![](assets/mydayplanner.png)
 
+# Links
+
 (https://tfreed94.github.io/MyDayPlanner/)
 
 This project is liscensed under the terms of the MIT License
